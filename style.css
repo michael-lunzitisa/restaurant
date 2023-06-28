@@ -1,0 +1,112 @@
+body{
+    font-size: 16px;
+    font-family: 'montserrat ', sans-serif;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.topbar{
+   position: fixed;
+    width: 100%;
+    top:0 ;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+}
+.topbar nav a{
+    color: #9F9F9F;
+    text-decoration: none;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+    font-weight: 500;
+    margin: 0 12px;
+}
+.topbar nav a:hover{
+    color: #a5b4fc ;
+}
+
+.logo{
+color: #9F9F9F;
+font-family: "Playfair Display", sans-serif;
+font-weight: 700;
+font-size: 20px;
+}
+.banniere{
+    margin-top: 60px;
+    background: no-repeat center center url(./images/food.jpg);
+    height: 400px;
+    text-align: center;
+    /*background: linear-gradient(#8e86b5, #acaeed);
+    background: linear-gradient(#696484, #8788ba);*/
+    
+}
+.title-baniere{
+    padding-top: 100px;
+    width: 100%;
+    color: #FFF;
+    height: 100%;
+    margin: 5px 0px;
+    font-family: "Playfair Display", sans-serif;
+}
+.main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+
+.main .content .card .right img{
+    height: 200px;
+    width: 400px;
+    margin-top: 5px;
+}
+.main .content .card .left{
+    flex: 0 0 30%;
+    background-color: #000;
+    color: #fff;
+    
+}
+/* .main .content .card .right{
+    flex: 0 0 70%;
+    width: 70%; 
+} */
+footer{
+    margin-top: 40px;
+    background-color: #000;
+    color: #fff;
+    padding: 30px 100px;
+    
+}
+footer h1{
+    font-family: "Playfair display";
+    border-bottom: 1px solid #fff;
+    width: 20%;
+    padding-bottom: 5px;
+}
+footer .servrices{
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+footer .servrices .servrice{
+    margin-right: 30px;
+    
+}
+footer .servrices .servrice p{
+    max-width: 300px;
+}
+    
