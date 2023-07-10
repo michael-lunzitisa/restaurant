@@ -2,6 +2,7 @@ body{
     font-size: 16px;
     font-family: 'montserrat ', sans-serif;
     margin: 0;
+    background-color: #dde1e7;
 }
 *{
     box-sizing: border-box;
@@ -24,6 +25,7 @@ body{
 }
 .topbar nav a{
     color: #9F9F9F;
+    font-size: 1rem;
     text-decoration: none;
     border-bottom: 1px solid #000;
     padding-bottom: 5px;
@@ -38,15 +40,14 @@ body{
 color: #9F9F9F;
 font-family: "Playfair Display", sans-serif;
 font-weight: 700;
-font-size: 20px;
+font-size: 1.25rem;
 }
 .banniere{
     margin-top: 60px;
     background: no-repeat center center url(./images/food.jpg);
     height: 400px;
     text-align: center;
-    /*background: linear-gradient(#8e86b5, #acaeed);
-    background: linear-gradient(#696484, #8788ba);*/
+    
     
 }
 .title-baniere{
@@ -85,10 +86,19 @@ main .content .card .right img{
 }
 main .content .card .left{
     flex: 0 0 30%;
+    
+   
     background-color: #000;
     color: #fff;
     
 }
+main .content .card .left h2{
+    font-family: "Playfair Display", sans-serif;
+    
+    margin: 5px 10px;
+    font-size: 1.87rem;
+}
+
 
 footer{
     margin-top: 40px;
@@ -149,6 +159,10 @@ footer .servrices .servrice p{
     border-radius: 5px;
     margin:0 10px;
     
+  }
+  .card2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
   }
   .card2-image {
     height: 200px;
