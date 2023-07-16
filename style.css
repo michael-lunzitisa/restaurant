@@ -3,10 +3,13 @@ body{
     font-family: 'montserrat ', sans-serif;
     margin: 0;
     background-color: #dde1e7;
+    
+}
+a{
+    text-decoration: none;
 }
 *{
-    box-sizing: border-box;
-    
+    box-sizing: border-box; 
 }
 
 .topbar{
@@ -58,47 +61,43 @@ font-size: 1.25rem;
     margin: 5px 0px;
     font-family: "Playfair Display", sans-serif;
 }
+/*card__categorie*/
 main{
+   
     margin-top: 40px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-main .content .card{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 20px;
-    
-}
-main a{
-    text-decoration:none;
-    
+    gap: 10px;
+   
 }
 main a:hover{
     opacity: 0.6;
+}
+.card__categorie{
+    display: flex;
 
 }
-main .content .card .right img{
-    height: 200px;
-    width: 400px;
-    margin-top: 5px;
-}
-main .content .card .left{
-    flex: 0 0 30%;
-    
-   
+.card__categorie .left{
     background-color: #000;
-    color: #fff;
-    
+    padding: 60px 30px;
+    width: 30%;
+    height: 30%;
 }
-main .content .card .left h2{
-    font-family: "Playfair Display", sans-serif;
-    
-    margin: 5px 10px;
-    font-size: 1.87rem;
+.card__categorie .right img{
+    width: 35%;
+    height: 86%;
 }
+.card__categorie .right{
+    margin: 0;
 
+}
+.card__categorie .left h2{
+    text-align: center;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+/* in card__categorie*/
 
 footer{
     margin-top: 40px;
@@ -192,6 +191,56 @@ overflow: hidden;
 .card:hover{
     box-shadow: 0,4rem, 8rem rgba(0, 0, 0, 0.1);
     transform: translateY(-0.5%);
+}
+
+/*********** main__poisson **********/
+.main__container{
+    display: flex;
+    margin-top: 69px;
+    height: 70vh;
+    justify-content: space-between;
+    
+}
+.image__banniere {
+    width: 50%;
+    background: url("http://www.onga.cd/media/3729/copy-of-copy-of-copy-of-copy-of-international-picnic-day-49.png");
+    background-size: cover
+}
+
+.content__right{
+    width: 50%;
+    margin: 0 20px;
+}
+.content__right h2{
+   font-family: "Playfair display";
+   font-style: italic;
+   font-size: 1.5rem;
+   font-weight: 700;
+   color:#9f9f9f;
+}
+.content__right p{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:#9f9f9f;
+ }
+
+/*********** fin main__poisson*******/
+
+
+.method__container{
+    display: flex;
+    justify-content: space-around;
+    color:#3d3d3d;
+    
+}
+.method__container h2{
+    font-family: "Playfair display";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.method__container li{
+    line-height: 1.9;
 }
 /* fin section main-global
 
