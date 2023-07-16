@@ -7,6 +7,7 @@ body{
 }
 a{
     text-decoration: none;
+    margin: 0;
 }
 *{
     box-sizing: border-box; 
@@ -52,6 +53,7 @@ font-size: 1.25rem;
     text-align: center;
     
     
+    
 }
 .title-baniere{
     padding-top: 100px;
@@ -62,42 +64,44 @@ font-size: 1.25rem;
     font-family: "Playfair Display", sans-serif;
 }
 /*card__categorie*/
+
 main{
-   
-    margin-top: 40px;
+    max-width: 60%;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 40px;
+    
     gap: 10px;
    
 }
 main a:hover{
     opacity: 0.6;
 }
-.card__categorie{
-    display: flex;
-
+main .container {
+    position: relative;
 }
-.card__categorie .left{
-    background-color: #000;
-    padding: 60px 30px;
-    width: 30%;
-    height: 30%;
-}
-.card__categorie .right img{
-    width: 35%;
-    height: 86%;
-}
-.card__categorie .right{
-    margin: 0;
-
-}
-.card__categorie .left h2{
+.container .text {
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    z-index: 1;
+    position: absolute;
     text-align: center;
-    font-family: "Playfair Display", sans-serif;
-    font-weight: 700;
-    color: #fff;
+    font-family: Georgia;
+    top: 35%;
+    color: white;
+    
 }
-/* in card__categorie*/
+.container img{
+    width: 100%;
+    height: 15%;
+}
+.containerA{
+    width: 300px;
+}
+
+/* fin card__categorie*/
 
 footer{
     margin-top: 40px;
