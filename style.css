@@ -46,6 +46,7 @@ font-family: "Playfair Display", sans-serif;
 font-weight: 700;
 font-size: 1.25rem;
 }
+
 .banniere{
     margin-top: 60px;
     background: no-repeat center center url(./images/food.jpg);
@@ -61,7 +62,8 @@ font-size: 1.25rem;
     margin: 5px 0px;
     font-family: "Playfair Display", sans-serif;
 }
-/*card__categorie*/
+
+/*main__categorie*/
 
 main{
     max-width: 60%;
@@ -76,6 +78,10 @@ main{
 main a:hover{
     opacity: 0.6;
 }
+/* fin main__categorie */
+
+/* card catégoris */
+
 main .container {
     position: relative;
 }
@@ -99,6 +105,8 @@ main .container {
 }
 
 /* fin card__categorie*/
+
+/* début__footer */
 
 footer{
     margin-top: 40px;
@@ -126,6 +134,9 @@ footer .servrices .servrice{
 footer .servrices .servrice p{
     max-width: 300px;
 }
+
+/* fin__footer */
+
 /*section main-global*/
 .container-card{
     display: flex;
@@ -164,12 +175,16 @@ overflow: hidden;
    
 }
 .card__content{
+   
     text-align: center;
     background: #fafafa;
     line-height: 1.5;
     font-size: 0.8rem;
     color: #3d3d3d;
     padding-bottom: 15px;
+}
+.card__content p{
+    height: 80px;
 }
 .card__content > h3:first-of-type{
     margin-top: 0;
