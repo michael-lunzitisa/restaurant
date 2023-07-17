@@ -51,9 +51,7 @@ font-size: 1.25rem;
     background: no-repeat center center url(./images/food.jpg);
     height: 400px;
     text-align: center;
-    
-    
-    
+      
 }
 .title-baniere{
     padding-top: 100px;
@@ -72,7 +70,6 @@ main{
     flex-wrap: wrap;
     margin: 0 auto;
     margin-top: 40px;
-    
     gap: 10px;
    
 }
@@ -235,7 +232,7 @@ overflow: hidden;
     display: flex;
     justify-content: space-around;
     color:#3d3d3d;
-    
+    padding: 0 50px;
 }
 .method__container h2{
     font-family: "Playfair display";
@@ -246,18 +243,9 @@ overflow: hidden;
 .method__container li{
     line-height: 1.9;
 }
-/* fin section main-global
-
-  .card2:hover{
-    transform: scale(1.05);
-    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
-     background: linear-gradient(#8e86b5, #acaeed);
-
-
-fin section card*/
-
-
-
+.methode__right{
+    padding-left: 30%;
+}
 
 
 
