@@ -46,13 +46,16 @@ font-family: "Playfair Display", sans-serif;
 font-weight: 700;
 font-size: 1.25rem;
 }
+.menu__hamburger{
+display: none;
+
+}
 
 .banniere{
     margin-top: 60px;
-    background: no-repeat center center url(./images/food.jpg);
+    background:linear-gradient(to bottom, #000, #0005), no-repeat center center url(./images/food.jpg);
     height: 400px;
-    text-align: center;
-      
+    text-align: center;  
 }
 .title-baniere{
     padding-top: 100px;
@@ -62,7 +65,15 @@ font-size: 1.25rem;
     margin: 5px 0px;
     font-family: "Playfair Display", sans-serif;
 }
-
+@media screen and (max-width: 625px){
+    .menu__hamburger{
+        display: block;
+    }
+    .topbar nav{
+        display: none;
+    }
+   
+}
 /*main__categorie*/
 
 main{
